@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cardy{
+  
+}
+.nw-container{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  color: blueviolet;
+  background-color: burlywood;
+}
+.asder{
+  /* display:flexbox;
+  flex-direction: row; */
+  background-color: cadetblue !important;
+}
+.newsitemy{
+  /* width: fit-content;
+  height: inherit; */
+}
+img{
+  height: 250px;
+  width: 250px;
+
+}
