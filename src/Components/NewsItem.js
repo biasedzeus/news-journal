@@ -6,10 +6,13 @@ export default class NewsItem extends Component {
         super();
     }
   render() {
-    let { title, description,urlToImage,newsUrl,author,date } = this.props;
+    let { title, description,urlToImage,newsUrl,author,date,source } = this.props;
     return (
       <div className=" my-3">
         <div className="card cardy" >
+        <span className="position-absolute top-0 translate-middle badge rounded-pill bg-secondary"
+         style={{left: '90%', zIndex: '1'}}> {source}
+                        </span>
           <img src={urlToImage?urlToImage:
             "https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"}
             className="card-img-top top-card" alt="..." />

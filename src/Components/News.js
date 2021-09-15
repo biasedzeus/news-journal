@@ -92,6 +92,7 @@ export default class News extends Component {
                   newsUrl={element.url}
                   author ={element.author}
                   date={element.publishedAt.slice(0,10)}
+                  source={element.source.name}
 
                 />
                 
