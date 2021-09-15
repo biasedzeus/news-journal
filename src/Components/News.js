@@ -91,7 +91,7 @@ export default class News extends Component {
                   urlToImage={element.urlToImage}
                   newsUrl={element.url}
                   author ={element.author}
-                  date={element.publishedAt.slice(0,10)}
+                  date={element.publishedAt}
                   source={element.source.name}
 
                 />
