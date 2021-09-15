@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 export default class NewsItem extends Component {
 
-    constructor() {
-        super();
-    }
+    // constructor() {
+    //     super();
+    // }
   render() {
     let { title, description,urlToImage,newsUrl,author,date,source } = this.props;
     return (
@@ -21,7 +21,7 @@ export default class NewsItem extends Component {
             <p className="card-text">
               {description}
             </p>
-            <p class="card-text"><small class="text-muted">-{author?author : "Unknown"} on {new Date(date).toGMTString()}</small></p>
+            <p className="card-text"><small className="text-muted">-{author?author : "Unknown"} on {new Date(date).toGMTString()}</small></p>
 
             
             <a rel="noreferrer" href={newsUrl} target="_blank" className="btn btn-primary">
