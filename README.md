@@ -1,3 +1,50 @@
+# News Journal 
+
+An app that shwos various news on the HomePage and shows various other topic related news such as
+
+- politics
+- Entertainment
+- Buisness
+- Health
+- Technology
+- General
+
+
+## Components
+
+All components are full responsive.
+
+- Card 
+-   - to show news headline 
+-   - to hold the image
+-   - show author,date
+-   and a button to read the whole story in a new tab.
+
+
+- NavBar
+-   -also responsive
+-   -contains all category links
+
+
+- HomePage
+-  - contains NavBar
+-  - contains all the cards 
+-  - has two buttons for pagination
+
+
+- and some other small components
+
+![image](https://user-images.githubusercontent.com/59247235/136062336-ca22bc9e-2c70-4b4c-8a5d-e46b66584c90.png)
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
