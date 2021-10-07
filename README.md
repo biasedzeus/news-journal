@@ -15,21 +15,21 @@ An app that shwos various news on the HomePage and shows various other topic rel
 All components are full responsive.
 
 - Card 
--   - to show news headline 
--   - to hold the image
--   - show author,date
--   and a button to read the whole story in a new tab.
+  -   to show news headline 
+  -   to hold the image
+  -   show author,date
+  -   and a button to read the whole story in a new tab.
 
 
 - NavBar
--   -also responsive
--   -contains all category links
+  -also responsive
+  -contains all category links
 
 
 - HomePage
--  - contains NavBar
--  - contains all the cards 
--  - has two buttons for pagination
+  - contains NavBar
+  - contains all the cards 
+  - has two buttons for pagination
 
 
 - and some other small components
