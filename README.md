@@ -34,6 +34,9 @@ All components are full responsive.
 
 - and some other small components
 
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/59247235/189572937-7ef2126f-10f6-4543-b90d-b9976fe331d9.png">
+
+
 ![image](https://user-images.githubusercontent.com/59247235/136062336-ca22bc9e-2c70-4b4c-8a5d-e46b66584c90.png)
 
 
