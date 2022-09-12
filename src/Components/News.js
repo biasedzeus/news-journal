@@ -26,6 +26,7 @@ export default class News extends Component {
       page: 1,
     };
   }
+  
 
   async updateNews() {
     this.setState({ loading: true });
@@ -52,7 +53,7 @@ export default class News extends Component {
             this.updateNews()
         }
 
-  
+   
 
   render() {
     return (
@@ -60,11 +61,10 @@ export default class News extends Component {
         {this.state.loading && <Loading />}
         <div className="row">
           {console.log(this.state.articles)}
-
           {!this.state.loading &&
             this.state.articles.map((element) => {
               return (
-                <div className="col-md-4" key={element.url}>
+                <div className="col-lg-4 col-md-6 col-sm-12" key={element.url}>
                   <NewsItem
                     title={element.title ? element.title : ""}
                     description={
@@ -78,6 +78,8 @@ export default class News extends Component {
                     date={element.publishedAt}
                     source={element.source.name}
                   />
+                
+
                 </div>
               );
             })}

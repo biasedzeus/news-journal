@@ -1,24 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0093E9;
-background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
-
- 
+  background: #457fca;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
-
-.nw-container{
+.nw-container {
   height: 500px;
   width: 500px;
   display: flex;
@@ -26,39 +24,32 @@ code {
   background-color: burlywood;
 }
 
-img{
+img {
   height: 250px;
   width: 250px;
-
 }
-.newsitemy{
-  box-shadow: 10px 10px 12px 0px rgba(255, 255, 255, 0.75);
--webkit-box-shadow: 10px 10px 12px 0px rgba(255, 255, 255, 0.75);
--moz-box-shadow: 10px 10px 12px 0px rgba(141,141,141,0.75);
+.newsitemy {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-
-
-
-
-
-
-.links-container{
+.links-container {
   width: 50%;
   margin-top: 20px;
   margin-left: 25%;
   margin-right: 25%;
-  background-color:white;
+  background-color: white;
   display: flex;
   padding: 10px 10vw;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   list-style: none;
   border-top: 1px solid #d1d1d1;
   position: sticky;
   z-index: 999;
 }
 
-.link{
+.link {
   text-transform: capitalize;
   padding: 0 10px;
   margin: 0 5px;
@@ -66,43 +57,30 @@ img{
   color: #383838;
   /* color: white; */
   opacity: 0.5;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.link:hover{
+.link:hover {
   opacity: 1;
 }
-.the-journal{
-  
+.the-journal {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-color:white;
-text-transform: capitalize;
-font-weight: 800;
-margin-top: 10px;
-
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 
-/* .stocks {
-  background-color: black;
-  margin-left: 0;
-  margin-right: 0;
-  color: white;
-}*/
-
-
-
-
-.stocks-container{
+.stocks-container {
   display: flex;
   text-decoration: none;
-  background-color:gray;
+  background-color: gray;
   align-content: center;
-  justify-content:space-between;
-
+  justify-content: space-between;
 }
-.stocks-container .link{
+.stocks-container .link {
   text-transform: capitalize;
   padding: 0 10px;
   margin: 0 5px;
@@ -111,27 +89,26 @@ margin-top: 10px;
   /* color: #383838; */
   color: white;
   opacity: 0.5;
-  transition: .5s;
+  transition: 0.5s;
 }
-.link-item{
+.link-item {
   list-style: none;
 }
 
 /* //////// LOADING //// */
-.Loading{
+.Loading {
   width: 10px;
   height: 10px;
   margin-top: 50vh;
   margin-left: 50%;
   margin: 40 auto;
   border-radius: 50%;
-  background:black;
+  background: black;
 }
-
 
 /* //// N E W S ///// */
 
-.btn-container{
+.btn-container {
   width: 50vw;
   overflow-x: hidden;
   display: flex;
@@ -140,18 +117,14 @@ margin-top: 10px;
 }
 
 
-/* ///// N  A  V    B  A  R ///// */
+.top-card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
-
-/* .NavBar{
-  z-index: 999;
-  top: 20px;
-  position: sticky;
-
-} */
-.top-card{
-  box-shadow: 10px 10px 12px 0px rgba(255, 255, 255, 0.75);
--webkit-box-shadow: 10px 10px 12px 0px rgba(255, 255, 255, 0.75);
--moz-box-shadow: 10px 10px 12px 0px rgba(141,141,141,0.75);
-
+.cardy{
+ max-height: fit-content;
+ border:none;
+ 
 }

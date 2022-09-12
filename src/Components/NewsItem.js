@@ -8,8 +8,9 @@ export default class NewsItem extends Component {
   render() {
     let { title, description,urlToImage,newsUrl,author,date,source } = this.props;
     return (
+      <>
       <div className=" my-3">
-        <div className="card cardy" >
+        <div className="card cardy " >
         <span className="position-absolute top-0 translate-middle badge rounded-pill bg-secondary"
          style={{left: '90%', zIndex: '1'}}> {source}
                         </span>
@@ -31,6 +32,8 @@ export default class NewsItem extends Component {
           </div>
         </div>
       </div>
+      
+            </>
     );
   }
 }

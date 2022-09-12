@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 import NavBar from "./Components/NavBar";
 import News from "./Components/News";
-import NavBarAlt from "./Components/NavBarAlt";
-import StockReport from "./Components/stockReport";
-import Loading from "./Components/Loading";
-import { motion } from "framer-motion";
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 export default class App extends Component {
@@ -17,7 +11,6 @@ export default class App extends Component {
     return (
       <div>
       
-        {/* <NavBarAlt /> */}
         
         
         <NavBar />
